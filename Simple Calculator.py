@@ -22,7 +22,7 @@ num2 = float(input("Enter 2nd number: "))
 if operation == 1:
     print(num1, "+", num2, "=", addition(num1,num2))
 
-eLif operation == 2:
+elif operation == 2:
     print(num1, "-", num2, "=", subtraction(num1,num2))
 
 elif operation == 3:
