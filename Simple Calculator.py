@@ -22,11 +22,11 @@ num2 = float(input("Enter 2nd number: "))
 if operation == 1:
     print(num1, "+", num2, "=", addition(num1,num2))
 
-if operation == 2:
+eLif operation == 2:
     print(num1, "-", num2, "=", subtraction(num1,num2))
 
-if operation == 3:
+elif operation == 3:
     print(num1, "*", num2, "=", multiply(num1,num2))
 
-if operation == 4:
+elif operation == 4:
     print(num1, "/", num2, "=", divide(num1,num2))
