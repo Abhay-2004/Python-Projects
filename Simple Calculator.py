@@ -30,3 +30,7 @@ elif operation == 3:
 
 elif operation == 4:
     print(num1, "/", num2, "=", divide(num1,num2))
+    
+else:
+    print("Select from the given operations")
+    quit
