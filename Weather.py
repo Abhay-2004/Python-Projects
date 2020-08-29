@@ -2,7 +2,7 @@ import requests,json
 
 BASE_URL = "http://api.openweathermap.org/data/2.5/weather?"
 
-URL = BASE_URL +"q=" + 'Bangalore' + "&appid=" + '9df487c92ff9ea0c4368b9b77c40e25c'
+URL = BASE_URL +"q=" + 'Bangalore' + "&appid=" + 'Your API KEY'
 
 response = requests.get(URL)
 
