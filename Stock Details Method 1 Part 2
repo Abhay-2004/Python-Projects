@@ -1,0 +1,28 @@
+import yfinance as yt
+
+tickerSymbol = 'GOOGl'
+
+s_d = yt.Ticker(tickerSymbol)
+
+#Stock info
+print(s_d.info)
+#Stock History
+print(s_d.history)
+#Dividents
+print(s_d.dividends)
+#Splits
+print(s_d.splits)
+#financials
+print(s_d.financials)
+# Major Share Holders
+print(s_d.major_holders)
+#Balance sheet
+print(s_d.balance_sheet)
+#Quaterly balance sheet
+print(s_d.cashflow)
+# Events like Earnings etc.
+print(s_d.calendar)
+#Time Start End
+ticketDf = s_d.history(period='1mo', start ='2020-8-31', end ='2020-9-3')
+
+print(ticketDf)
